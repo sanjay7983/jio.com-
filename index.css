@@ -1,0 +1,2451 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+
+}
+body{
+    overflow: hidden;
+}
+
+
+@media (max-width: 600px) {
+    header {
+        gap: 10px;
+        position: relative;
+    }
+
+    .narbar ul li {
+        display: none;
+
+
+    }
+
+    .narbar ul i {
+        display: block;
+        font-size: 4vw;
+        align-items: first baseline;
+        padding: 0px 8px;
+        position: absolute;
+        left: 0px;
+
+    }
+
+    #search2 {
+        position: absolute;
+        margin: 2px 8px;
+        background-color: red;
+        border-color: red;
+        color: black;
+        cursor: pointer;
+    }
+
+    .search input {
+        display: flex;
+    }
+
+    .logo {
+        padding: 0px 5px;
+    }
+
+}
+
+
+.logo {
+    width: 65px;
+    height: 40px;
+    margin-left: 5rem;
+    margin-top: 20px;
+}
+
+header {
+    justify-content: space-around;
+    border: 2px solid blue;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+    gap: 10px;
+    padding: 0px 5px;
+
+}
+
+.narbar {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+
+.narbar ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+
+}
+
+.narbar ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #becefb;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: JioType, helvetica, arial, sans-serif;
+
+}
+
+.narbar i {
+    display: none;
+    font-size: 1.23vw;
+    align-items: center;
+    color: white;
+
+}
+
+.search {
+    margin-top: 25px;
+    margin-right: 8rem;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+
+
+}
+
+.search i {
+    border: 0.1px solid #e7ebf8;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    line-height: 30px;
+    background-color: #e7ebf8;
+    align-items: center;
+    text-align: center;
+    color: blue;
+
+}
+
+input {
+    border: 0.1 solid red;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: red;
+    padding: 0px 40px;
+    position: relative;
+    font-size: 15px;
+    display: inline;
+    color: blue;
+    display: none;
+}
+
+#search2 {
+    color: black;
+}
+
+.fa-solid:hover {
+    color: rgb(13, 5, 94);
+}
+
+
+.vhers {
+    width: 100%;
+    overflow: hidden;
+}
+
+.mhadiv {
+    width: 300%;
+    display: flex;
+    position: relative;
+    animation: sider 7s infinite linear;
+
+}
+
+@keyframes sider {
+    0% {
+        left: 0%;
+    }
+
+    20% {
+        left: 0%;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+}
+
+
+.background1 {
+    background-image: url(jio-otts-desk-v1\ \(1\).webp);
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.pra1 {
+    font-size: 40px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 40px;
+    margin-top: 80px;
+    margin-left: 110px;
+
+}
+
+.pra2 {
+    font-size: 18px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 24px;
+    margin-top: 15px;
+    margin-left: 110px;
+
+}
+
+.expore1 {
+    margin-left: 100px;
+    margin-top: 30px;
+    gap: 40px;
+}
+
+.expore3 {
+    margin-top: 15px;
+    margin-left: 100px;
+
+}
+
+button {
+    width: 130px;
+    height: 45px;
+    border: 0.01px solid rgb(205, 205, 205);
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 0px 5px;
+
+}
+
+
+.check {
+    font-size: 16px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 24px;
+    cursor: pointer;
+    background-color: blue;
+
+}
+
+.check2 a {
+    font-size: 16px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    background-color: transparent;
+
+}
+
+.check2 {
+    font-size: 16px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+
+}
+
+.check2 a {
+    background-color: transparent;
+}
+
+.check:hover {
+
+    background-color: rgb(123, 123, 238);
+}
+
+.check2:hover {
+    border-color: #789af7;
+}
+
+.background2 {
+    background-image: url(https://jep-asset.akamaized.net/cms/assets/airfiber/JioAirFiber-Homepage-Desktop1.webp);
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    flex-direction: row;
+    overflow: hidden;
+
+
+}
+
+.background3 {
+    background-image: url(https://jep-asset.akamaized.net/jio/webp/homepage/Homepage-masthead.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+.chover {
+    display: flex;
+    margin-left: 90px;
+
+}
+
+.chover i {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    border: 0.2px solid white;
+    border-radius: 50%;
+    line-height: 180%;
+    text-align: center;
+    margin: 100px 15px;
+    margin-left: 20px;
+}
+
+.of1 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    display: flex;
+    margin-top: 105px;
+}
+
+.chover i:hover {
+    background-color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .pra1 {
+        margin-top: 90px;
+        margin-left: 10px;
+    }
+
+    .pra2 {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .expore1 {
+        display: flex;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    .expore3 {
+        display: flex;
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .chover {
+        margin: 0px;
+    }
+
+}
+
+.mobilebackground {
+    width: 100%;
+    height: 87vh;
+    background-color: #f5f5f5;
+    padding-left: 10.5rem;
+    padding-top: 4rem;
+    position: relative;
+
+}
+
+
+.phonobackground {
+    width: 75vw;
+    height: 45vh;
+    background-color: #ffffff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+.phnoeslow {
+    width: 13rem;
+    height: 4rem;
+    background-color: #ffffff;
+    position: absolute;
+    top: 67px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mobie2 {
+    color: blue;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: JioType, helvetica, arial, sans-serif;
+}
+
+.fa-solid {
+    color: blue;
+}
+
+.phonesr {
+    width: 22rem;
+    height: 4rem;
+    background-color: #e0e0e0;
+    margin-left: 35px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.fiberjio {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: JioType, helvetica, arial, sans-serif;
+}
+
+
+.moblenumber {
+    margin-left: 60px;
+    display: flex;
+    padding-top: 130px;
+    overflow: hidden;
+
+}
+
+span {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+
+.recharge1 {
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.recharge1:hover {
+    background-color: rgb(6, 6, 99);
+}
+
+textarea {
+    border-radius: 10px;
+    padding-top: 1px;
+    padding-left: 14px;
+    font-family: JioType, helvetica, arial, sans-serif;
+
+}
+
+.cosre {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.spcial {
+    width: 28rem;
+    height: 3rem;
+    background-color: #f5f5f5;
+    margin-left: 60px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.spcial img {
+    width: 32px;
+    height: 35px;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+@media (max-width:600px) {
+    .mobilebackground {
+        margin: 0px;
+        padding: auto;
+        padding-right: 0rem;
+        padding-left: 40px;
+    }
+
+    .moblenumber {
+        padding: 0px;
+        margin-top: 50px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+
+    }
+
+    .phonesr {
+        width: 70vw;
+
+    }
+
+    .phonesr {
+        width: 70vw;
+        padding-left: 25vw;
+
+    }
+
+    .fiberjio {
+        font-size: 2.5vw;
+
+    }
+
+    .phnoeslow {
+        width: 40vw;
+        font-size: small;
+    }
+
+    .phonobackground {
+        padding: 0px;
+        margin: 0px;
+        border-top-right-radius: 0px;
+        width: 79vw;
+        margin-right: 20px;
+        position: relative;
+    }
+
+    .spcial {
+        width: 70vw;
+        padding: 0px;
+        margin-left: 12px;
+        margin-top: 0px;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+
+    .days {
+        font-size: 5vw;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .recharge1 {
+        width: 70vw;
+        position: absolute;
+        top: 14rem;
+        left: 4px;
+    }
+
+    textarea {
+        width: 70vw
+    }
+    .getair button {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .hear {
+        display: none;
+    }
+
+}
+
+@media (max-width:600px){
+    .imagetage{
+        display: block;
+        flex-wrap: wrap ;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .image1 img{
+        width:100%;
+        height: 400px;
+        border-radius: 20px;   
+    }
+
+    .image2 {
+        width:100%;
+        height: 400px;
+        border-radius: 20px;   
+    }
+}
+
+.spcial p {
+    font-size: 13.3px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    margin-top: 13px;
+    margin-left: 7px;
+}
+
+.speaci {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hear {
+    height: 274px;
+    width: 422px;
+    margin-top: 45px;
+    margin-left: 180px;
+}
+
+.getair {
+    align-items: center;
+    margin-left: 16vw;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.getair button {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    color: blue;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-top: 7 px;
+}
+
+.getair button:hover {
+    border-color: blue;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.imagetage{
+    display: flex;
+    justify-content:center ;
+    gap: 20px;
+    margin-left: 1px;
+    padding-top: 4vh;
+}
+
+.explore h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.pris {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    color: rgba(0, 0, 0, 0.56);
+    text-align: center;
+    margin-top: 25px;
+}
+
+ .aajdeal .aajdeal2 {
+    width: 77.9vw;
+    height: 80vh;
+    margin-left: 10rem;
+    margin-top: 40px;
+
+}
+
+.aajdeal img{
+    border-radius: 20px;
+}
+
+
+    
+
+
+
+
+
+@media (max-width:600px) {
+    .explore {
+        font-size: 9vw;
+        padding: 0px;
+        margin: 20px 0px;
+    }
+
+    .aajdeal  .aajdeal2{
+        width: 100%;
+        height: 70vh;
+        margin: 0px;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 7px;
+
+    
+    }
+
+}
+
+
+
+.jiotv {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0px;
+    padding: 1.25rem 10rem;
+
+}
+
+.honew{
+    width: 385px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.box2 {
+    width: 765px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+@media(max-width:600px){
+    .jiotv{
+        display: block;
+        box-sizing:border-box;
+        gap:15px;
+        padding-left: 10px;
+        padding-right: 7px;
+        
+
+    }
+    .honew{
+        width:100%;
+        height: 450px;
+        border-radius: 20px;
+        
+    }
+
+    .box2{
+        width: 100%;
+        height: 450px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+.sofa{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 10px 160px;
+    margin-right: 160px;
+    
+}
+
+.sofaset{
+    height: 28.75rem;
+    width: 24.31rem;
+    border-radius: 20px;
+}
+.sofaset2{
+    height: 460px;
+    width: 389px;
+    border-radius: 20px;
+}
+
+.sofaset3{
+    height: 600px;
+    width: 389px;
+    border-radius: 20px;
+}
+
+ .box5{
+    width: 100%;
+    height: 462px;
+    overflow: hidden;
+    border-radius: 20px;
+
+}
+
+
+@media(max-width:600px){
+    .sofa {
+        display: block;
+        box-sizing:border-box;
+        gap:20px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 7px;
+      
+    
+    }
+    .sofaset{
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        padding-right: 1vw;
+        
+    }
+
+    .sofaset2{
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        padding-right: 1vw;
+        margin-top: 20px;
+    }
+
+    .sofaset3{
+        width: 100%;
+        height: 400px;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding-right: 1vw;
+    }
+
+
+}
+
+.image1{
+    position: relative;
+}
+.imag1{
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+ img{
+    cursor: pointer;   
+}
+button{
+    cursor: pointer;
+}
+.now{
+    margin-top: 5px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.check3{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    width: 10.5rem;
+    height: 50px;
+    line-height: 24px;
+    background-color: #f5f5f5;
+    color: #cd3d00;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-top: 30px;
+}
+
+.check3:hover{
+        background-color:#fbc2a9;
+        
+}
+
+.check4:hover{
+        background-color: rgb(199, 199, 250);
+}
+
+.check5:hover{
+    background-color: #f5f5f5;
+}
+
+.check6:hover{
+    background-color: #ffb18f;
+}
+.check7:hover{
+    background-color: #012e26;
+}
+
+.check8:hover{
+    background-color:#803c05;
+}
+
+.check9:hover{
+    background-color: #033e20;
+}
+
+.check10:hover{
+    background-color: #0a917a;
+}
+
+
+
+@media (max-width:600px) {
+    .imag1 img{
+        height: 30px;
+        width: auto;
+    }
+    .now{
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 28px;
+        color: #ffffff;
+        font-family: JioType, helvetica, arial, sans-seri;
+    }
+    .check3{
+        cursor: pointer;
+        width: 40vw;
+        height: 40px;
+        font-size: 4vw;
+        font-weight: 700;
+        line-height: 24px;
+        font-family: JioType, helvetica, arial, sans-seri;
+    }
+
+    
+}
+
+@media (max-width:600px) {
+        .image1 .check4{
+            font-size: 4vw;
+            font-weight: 700;
+            width: 35vw;
+            height: 45px;
+            line-height: 24px;
+            background-color: #f5f5f5;
+            color :blue;
+            font-family: JioType, helvetica, arial, sans-seri;
+            margin-top: 30px;
+            border-radius: 25px;
+    }
+}
+
+.check4{
+    font-weight: 700;
+    width: 8rem;
+    height: 50px;
+    line-height: 24px;
+    background-color: #f5f5f5;
+    color:blue;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-top: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.aajdeal {
+    position: relative;
+    
+    
+    
+}
+    
+ .imga4{
+        display: flex;
+        position: absolute;  
+        top: 0px; 
+        left: 0px;
+        flex-direction: column;
+        gap: 15px;       
+}
+
+.aajdeal .ime{
+    height: 40px;
+    width: 123px;
+    margin-left: 12vw;
+    margin-top: 70px;
+    
+
+}
+.now1{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 12vw;    
+}
+
+.now2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 12vw;
+}
+
+.check5{
+    background-color:#89dcff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color : #00364e;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left:12vw;
+   
+}
+
+@media (max-width:600px){
+
+    .imga4{
+        padding: 0px;
+        left: 0px;
+        margin: 0px;
+        padding-left: 20px;
+        gap: 4px;
+
+    }
+
+    .aajdeal .now1{
+        font-size: 7vw;
+        margin: 0px;
+        padding: 0x;
+    }
+
+    .aajdeal .ime{
+        margin-top: 20px;
+        margin-left: 0px;
+}
+
+.now2{
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 24px;
+    color: #ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 0px;
+    
+}
+
+
+.check5{
+    background-color:#89dcff;
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 24px;
+    color : #00364e;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 0vw;
+    height: 6vh;
+    width: 30vw;
+   
+}
+}
+
+.box1{
+    position: relative;
+}
+
+.jiotve1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 30px;
+    margin-left: 25px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.now3{
+    font-size: 29.5px;
+    font-weight: 900;
+    line-height: 32px;
+    color : #ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+  
+}
+
+.now4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color : #ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+  
+}
+
+.check6{
+    background-color :#fbc2a9;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :rgb(66, 1, 1);
+    font-family: JioType, helvetica, arial, sans-seri;
+   
+}
+.hownew1{
+    height: 32px;
+    width: 81px;
+}
+
+@media (max-width:600px) {
+    
+    .jiotve1{
+            gap: 6px;
+            padding-top: 10px;
+        }
+
+        .now3{
+            font-size: 6vw;
+            font-weight: 900;
+            line-height: 32px;
+            color : #ffffff;
+            font-family: JioType, helvetica, arial, sans-seri;
+          
+        }  
+
+        .check6{
+            background-color :#fbc2a9;
+            font-size: 4vw;
+            font-weight: 700;
+            line-height: 24px;
+            color :rgb(66, 1, 1);
+            font-family: JioType, helvetica, arial, sans-seri;
+
+           
+        }
+        
+
+
+}
+
+.hownew2{
+    height: 32px;
+    width: 270px;
+}
+
+.now5{
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 40px;
+    color : #000000;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.now6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    color : #000000;
+    font-family: JioType, helvetica, arial, sans-seri;
+    
+}
+
+.check7{
+    background-color:#2f7267;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    width: 9rem;
+    height: 45px;
+}
+
+@media (max-width:600px) {
+    .now5{
+        font-size: 6vw;
+        font-weight: 900;
+        line-height: 32px;
+        color :black;
+        font-family: JioType, helvetica, arial, sans-seri;
+     }  
+
+     .now6{
+        font-size: 3vw;
+        font-weight: 900;
+        line-height: 32px;
+        color : #000000;
+        font-family: JioType, helvetica, arial, sans-seri;
+      
+    }  
+    .check7{
+        background-color:#2f7267;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        color :#ffffff;
+        font-family: JioType, helvetica, arial, sans-seri;
+        width: 8rem;
+        height: 45px;
+    }   
+
+}
+
+
+
+
+.box3{
+    position: relative;
+}
+.mislriy{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 38px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.newdajaj{
+    height: 16px;
+    width: 128px;
+}
+
+
+.now7{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#141414;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.now8{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color :#141414;
+    font-family: JioType, helvetica, arial, sans-ser
+}
+
+
+.check8{
+    background-color:#fa7d19;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    width: 7rem;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.box4{
+    position: relative;
+}
+
+.mislriy1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 40px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newdajaj1{
+    height: 40px;
+    width: 148px;
+}
+
+.now9{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#141414;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.now10{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color :#141414;
+    font-family: JioType, helvetica, arial, sans-ser
+}
+
+.check9{
+    background-color :#17603b;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    width: 9rem;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+.box5{
+    position: relative;
+}
+
+
+.mislriy2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 45px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.now11{
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#141414;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.check10{
+    background-color  :#1fccb0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#000000;
+    font-family: JioType, helvetica, arial, sans-seri;
+    width: 8.5rem;
+    height: 50px;
+    border-radius: 25px;
+}
+@media (max-width:600px) {
+    .now11{
+        font-size: 8vw;
+        font-weight: 900;
+        line-height: 40px;
+        color :black;
+        font-family: JioType, helvetica, arial, sans-seri;
+    }
+}
+
+
+.colore{
+    width: 100%;
+    height: 85vh;
+    background-color:#f5f5f5;
+    margin-top: 40px;
+}
+
+.getbes {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#141414;
+    font-family: JioType, helvetica, arial, sans-seri;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+.diceves{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    cursor: pointer;
+}
+
+
+.devicesn{
+    width: 18rem;
+    height: 430px;
+    background-color:#1144e4;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 13px;
+    gap: 8px;
+    
+}
+.devicesn1{
+    width: 18.5rem;
+    height: 430px;
+    background-color:#ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;  
+    overflow: hidden; 
+    padding-top: 30px;
+    border: 2px solid #919293;
+}
+.devicesn2{
+    width: 18.5rem;
+    height: 430px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #919293;
+    display: flex;
+    flex-direction: column;  
+    overflow: hidden; 
+    padding-top: 30px;
+}
+
+.devicesn3{
+    width: 18.5rem;
+    height: 430px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #919293;
+    display: flex;
+    flex-direction: column;  
+    overflow: hidden; 
+    padding-top: 30px;
+}
+
+
+.devicesn1:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.devicesn2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.devicesn3:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.name_desci{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.name_this{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.view_all{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    width: 12.5rem;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-top: 8rem;
+    gap: 5px;
+    border-color: #718cd7;
+    
+}
+
+.view_all:hover{
+    border-color: #ffffff;
+}
+
+
+
+.fa-solid {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.jiomuvies{
+    height: 194px;
+    width: 315px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.NEW_LAUNCH{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    width: 7.3rem;
+    height: 22px;
+    background-color:#f7ab20;
+    margin-left: 17px; 
+}
+
+.jio_mot{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    color :#000000;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 17px; 
+}
+
+#prices{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color : rgba(0, 0, 0, 0.65);
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 17px; 
+}
+
+#prices1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color : rgba(0, 0, 0, 0.65);
+    font-family: JioType, helvetica, arial, sans-seri;
+    
+}
+
+#prices2{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color : #fa7d19;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 40px;
+    
+}
+
+.buy_from{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#0a2885;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-top: 4.7rem;  
+    margin-left: 17px; 
+    
+}
+
+.buy_from:hover{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#0a2885;
+    font-family: JioType, helvetica, arial, sans-seri; 
+    border:0.1px solid white;
+    width: 10.5rem;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #bdcdf9;
+    padding-left: 16.2px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin: 0px;
+    margin-top: 4rem;
+    
+}
+
+.jio_mot1{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    color :#000000;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 17px; 
+}
+
+.buy_from1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#0a2885;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-top: 2.9rem;  
+    margin-left: 17px; 
+}
+
+.buy_from1:hover{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#0a2885;
+    font-family: JioType, helvetica, arial, sans-seri; 
+    border:0.1px solid white;
+    width: 10.5rem;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #bdcdf9;
+    padding-left: 16.2px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    margin: 0px;
+    margin-top: 2.2rem;
+    
+}
+
+@media (max-width:600px) {
+    .diceves{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-left: 60px;
+        padding-right: 10px;
+    }
+
+    .devicesn1{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .devicesn2{
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .devicesn3{
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .colore{
+        width: 100%;
+        height: auto;
+        background-color:#f5f5f5;
+        margin-top: 40px;
+    }
+    
+}
+
+.ajio_img{
+    text-align: center;
+    margin-left: 44rem;
+    margin-top: 50px;
+    width: 59px;
+    height: 17px;
+
+}
+
+.ajio_text{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color :black;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-top: 10px;  
+    margin-left: 25rem; 
+}
+
+ .jio_video{
+    height: 553px;
+    width: 984px;
+    border-radius: 30px;
+    margin-left: 16rem;
+    margin-top: 35px;
+ }
+
+ @media (max-width:600px) {
+    .ajio{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .ajio_img{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 45vw;
+        margin-top: 4vh;
+    }
+    
+    .ajio_text{
+        margin: 0px;
+        padding: 0px;
+        font-size: vw;
+        font-weight: 900;
+        line-height: 40px;
+        color :black;
+        font-family: JioType, helvetica, arial, sans-seri;
+        margin-left: 20px;
+
+        
+    }
+
+    .jio_video{
+        margin: 0px;
+        padding: 0px;
+        height: 30vh;
+        width: 90%;
+        border-radius: 20px;
+        margin-left: 14px;
+        margin-top: 30px;
+       
+    }
+
+ 
+
+ }
+
+ .most_vide{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .expore{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    background-color: #0078ad;
+    height: 50px;
+    width: 14rem;
+    margin-top: 40px;
+    margin-left: 40rem;
+    border-color:#0078ad;
+ }
+
+.expore:hover{
+    background-color: #013247;
+    
+}
+
+.colore_width{
+        width: 100%;
+        height: 90vh;
+        background-color: #e7ebf8;
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        padding-left: 150px;
+        padding-top: 65px;
+
+}
+
+
+.flet_img{
+    width: 37rem;
+    height: 32rem;
+    background-color:#ffffff;
+    border-radius: 20px;
+}
+
+.india_map{
+    width: 37rem;
+    height: 32rem;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.flet_img{
+    position: relative;
+}
+
+.cover{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#flae{
+    width: 37rem;
+    height: 23rem;
+    border-radius: 20px;
+}
+
+.india_map{
+    position: relative;
+}
+
+.cover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.find_text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color :#000000;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.view_job{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color :#1144e4;
+    font-family: JioType, helvetica, arial, sans-seri;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 11rem;
+    border-color: #dbebfc;
+}
+
+.flae{
+    position: relative;
+}
+
+.carrer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+ 
+    
+
+
+}
+.carrer button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;  
+    background-color:#fa7d19;
+    width: 90px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.view_job:hover{
+    border-color: #0a2885;
+}
+
+@media (max-width:600px) {
+    .most_vide{
+        padding: 0px;
+        margin: 0px;
+        display: block;
+    }
+
+    .expore{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 20vw;
+        margin-top: 2vh;
+    }
+
+
+    .colore_width{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-right: 10px;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .img_grow{
+        margin-left: 0px;
+    }
+
+}
+
+.img_grow{
+        width: 78vw; 
+        height: 500px;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-left: 10rem;
+}
+
+.grow{
+    position: relative;
+    box-sizing: border-box;
+}
+
+.grow_div{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-top: 50px;
+    margin-left :12rem;
+    margin-top :12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+
+.grow_you{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri
+}
+
+.explore_future{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri
+}
+   
+.explore_button{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    height: 50px;
+    width: 12rem;
+    border-radius: 30px;
+    background-color: #1144e4;
+    border-color: #1144e4;
+    
+}
+.explore_button:hover{
+        background-color: #7592eb;
+}
+
+.blue_color{
+    width: 100%;
+    height: 45vh;
+    background-color: #1144e4;
+    margin-top: 60px;
+}
+
+svg{
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        text-align: center;
+        margin-top: 8px;
+       
+}
+
+.suppot {
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    display: flex;
+    padding-left: 15px;
+}
+
+.suppot1 {
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.button20{
+    height: 47px;
+    width: 9rem;
+    border-color: #677ab4;
+}
+
+
+.suppot2{
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.button30{
+    height: 47px;
+    width: 7rem;
+    border-color: #677ab4;
+}
+
+.suppot3{
+    align-items: center;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+    display: flex;
+    padding-left: 12px;
+}
+.button40{
+    height: 47px;
+    width: 9rem;
+    border-color: #677ab4;
+}
+
+.button50{
+    height: 47px;
+    width: 8rem;
+    border-color: #677ab4;
+}
+
+.button30:hover{
+    border-color: #ffffff;
+}
+.button20:hover{
+    border-color: #ffffff;
+}
+
+.button40:hover{
+    border-color: #ffffff;
+}
+
+.button50:hover{
+    border-color: #ffffff;
+}
+
+
+
+.needs{
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    color :#ffffff;
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.we_would{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color : rgba(255, 255, 255, 0.78);
+    font-family: JioType, helvetica, arial, sans-seri;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+footer{
+    background-color:#f5f5f5;
+    height: 103vh;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    margin-left: 10.5rem;
+    padding-top: 50px;
+    gap: 90px;
+}
+
+.our1{
+    font-size: 16px;
+    font-family: 800;
+    line-height: 20px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    color: #000000;
+    gap: 24px;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 500;
+    font-family: JioType, helvetica, arial, sans-seri;
+   
+
+}
+
+.footer ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 500;
+    line-height: 20px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    color: rgba(0, 0, 0, 0.65);
+
+}
+
+.with{
+    font-size: 24px;
+    font-family: 900;
+    line-height: 28px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    color: #000000;
+}
+.our1 i{
+    display: none;
+}
+
+.socail  {
+    display: flex;
+    gap: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+}
+.twitter{
+        border-radius: 50%;
+        height: 27px;
+        width: 27px;
+        background-color: blue; 
+        overflow: hidden; 
+        box-sizing: border-box;
+        align-items: center;
+        color: blue;
+
+}
+
+.twitter i{
+    font-size: 22px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 25px;
+    border-color: blue;
+    box-sizing: border-box;
+   
+}
+
+.with1{
+    font-size: 24px;
+    font-family: 900;
+    line-height: 28px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.jap{
+    margin-top: 23px;
+    gap: 13px;
+    display: flex;
+
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.jiou{
+    display: flex;
+    margin-left: 5rem;
+    justify-content: space-between;
+}
+
+.copyright{
+    display: flex;
+    
+}
+
+.copyright p{
+    font-size: 12px;
+    font-family: 500;
+    line-height: 16px;
+    font-family: JioType, helvetica, arial, sans-seri;
+    color: #000000;
+    margin-top: 35px;
+
+}
+
+.pluse{
+        padding-left: 10px;
+        padding-bottom: 6px;
+        height: 50px;
+        width: 50px;
+        border: 0 solid #f5f5f5;
+        border-radius: 50%;
+        background-color : #f5f5f5;
+
+}
+
+.last{
+    display: flex;
+    gap: 20px;
+    margin-right: 180px;
+    margin-top: 35px;
+}
+.last a{
+   text-decoration: none;
+   font-size: 12px;
+   font-family: 600;
+   line-height: 16px;
+   font-family: JioType, helvetica, arial, sans-seri;
+   color: blue;   
+}
+
+.footer ul li a:hover{
+    background-color:#b7b7b7;
+    height: 65px;
+    width: 150px;
+    border: 0.2 solid red;
+    grid: 0px;
+}
+
+@media (max-width:600px){
+    .center{
+        margin: 0px;
+    }
+    .blue_color{
+        margin-top: 37rem;
+    }
+
+    .needs{
+        font-size: 35px;
+        font-family: 600;
+        line-height: 16px;
+        font-family: JioType, helvetica, arial, sans-seri; 
+    }
+
+    .new_button{
+        gap: 15px;
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:600px) {
+    .footer{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        margin: 0px;
+        margin-left: 50px;
+        
+    }
+
+    .our1 {
+        font-size: 20px;
+        font-family: 600;
+        line-height: 16px;
+        font-family: JioType, helvetica, arial, sans-seri;
+    }
+    .footer ul{
+        display: none;
+    }
+
+    .with{
+        font-size: 24px;
+        font-family: 900;
+        line-height: 16px;
+        font-family: JioType, helvetica, arial, sans-seri;
+    }
+
+    .our1 i{
+        display: flex;
+        flex-direction:row;
+        color: #000000;
+        text-align: right;
+        margin-right: 60px;
+        font-size: 30px;
+        color: blue;
+        cursor: pointer;   
+    }
+    
+
+     .pluse:hover{
+        display: flex;
+        padding-top: 7px;
+        padding-left: 10px;
+        padding-bottom: 6px;
+        height: 50px;
+        width: 50px;
+        border: 0.1 solid black;
+        border-radius: 50%;
+        background-color: rgb(188, 190, 247);
+    }
+
+
+    .meade{
+        display: flex;
+        justify-content: space-between  ;
+        margin-right: 50px;
+    }
+    .meade p{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:600px) {
+    .jiou{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    } 
+
+    .copyright p{
+        font-size: 16px;
+        font-family: 900;
+        line-height: 16px;
+        font-family: JioType, helvetica, arial, sans-seri;
+        padding-left: 40px;
+    }
+
+    .last  a{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 40px;
+    }
+
+    .logo{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 10px;
+       margin-left: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .img_grow{
+        margin:0px;
+        padding: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position:absolute;
+        width: 100%;
+        height: 65vh;
+        margin-top: 20px;        
+    }
+    
+    .grow_div{
+        padding: 20px;
+        margin: 0px;
+        padding-top: 16rem;
+    }
+
+    footer{
+        background-color:#f5f5f5;
+        height: 114vh;
+        width: 100%;
+    }
+}
+
+
+
